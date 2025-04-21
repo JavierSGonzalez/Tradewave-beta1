@@ -1,0 +1,43 @@
+.head{
+    background-color: #fcbf49;
+    height: 100px;
+    border-color: black;
+    border-style:ridge;
+    border-radius: 10px;
+}
+
+.head h1{
+    font-style: italic;
+    position: absolute;
+    top: 1px;
+}
+
+.subcat{
+    display: flex;
+    justify-content: space-between;
+    color: rebeccapurple;
+    font-style: italic;
+    position: absolute;
+    top: 40px;
+    left: 250px;
+}
+
+.map{
+    display: flex;
+    justify-content: space-between;
+    color: rebeccapurple;
+    font-style: italic;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+}
+
+.admin{
+    display: flex;
+    justify-content: space-between;
+    color: rebeccapurple;
+    font-style: italic;
+    position: absolute;
+    top: 40px;
+    left: 665px;
+}
