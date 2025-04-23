@@ -1,11 +1,29 @@
 /* Estilo del nav*/
 
 header{
-    background-color: #fcbf49;
+    background-color: #f4c960;
 }
 
 .navbar .nav-menu .nav-link{
-    color: rebeccapurple;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-size: 1.12rem;
+}
+
+header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .nav-menu{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar .nav-menu .nav-link:hover{
+    background-color: #e1a310;
 }
 
 /*Ordenes para toda la página*/
